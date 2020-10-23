@@ -1,0 +1,8 @@
+<h1 class="text-center mt-5 mb-5 text-danger">Humidity</h1>
+
+
+Humidity is the concentration of water vapor present in the air. Water vapor, the gaseous state of water, is generally invisible to the human eye.[1] Humidity indicates the likelihood for precipitation, dew, or fog to be present. The amount of water vapor needed to achieve saturation increases as the temperature increases. As the temperature of a parcel of air decreases it will eventually reach the saturation point without adding or losing water mass. The amount of water vapor contained within a parcel of air can vary significantly. For example, a parcel of air near saturation may contain 28 grams of water per cubic metre of air at 30 °C, but only 8 grams of water per cubic metre of air at 8 °C.
+
+Three primary measurements of humidity are widely employed: absolute, relative and specific. Absolute humidity describes the water content of air and is expressed in either grams per cubic metre[2] or grams per kilogram.[3] Relative humidity, expressed as a percentage, indicates a present state of absolute humidity relative to a maximum humidity given the same temperature. Specific humidity is the ratio of water vapor mass to total moist air parcel mass.
+
+Humidity plays an important role for surface life. For animal life dependent on perspiration (sweating) to regulate internal body temperature, high humidity impairs heat exchange efficiency by reducing the rate of moisture evaporation from skin surfaces. This effect can be calculated using a heat index table, also known as a humidex.

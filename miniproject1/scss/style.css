@@ -1,0 +1,266 @@
+.logo {
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 5px 5px #f3f4f5;
+          box-shadow: 0 5px 5px #f3f4f5;
+}
+
+.main-header .img-container img {
+  width: 100%;
+  height: 35vh;
+}
+
+.main-header .marq {
+  font-size: 25px;
+  font-weight: bold;
+  color: red;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.sub1 {
+  width: 47%;
+  height: 500px;
+}
+
+.sub2 {
+  width: 47%;
+  height: 500px;
+  overflow-y: scroll;
+  border-left: 2px solid;
+}
+
+.sub2 .news img {
+  width: 300px;
+}
+
+.slidediv {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+}
+
+.slidediv img {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.slidediv h1 {
+  margin-top: 50px;
+}
+
+.slidediv .rcs {
+  width: 150px;
+  height: 150px;
+  border-radius: 40%;
+}
+
+.slidediv .cityName {
+  color: #28abb9;
+  font-weight: bold;
+  text-shadow: 0 5px 5px #e97979;
+}
+
+.main-current {
+  width: 300px;
+  height: 450px;
+  background-color: #1cf0f0;
+  position: fixed;
+  top: 280px;
+  right: 5px;
+  display: none;
+  -webkit-animation: current;
+          animation: current;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 20px 10px grey;
+          box-shadow: 0 20px 10px grey;
+}
+
+.currentLocation {
+  display: inline;
+  text-align: center;
+  color: #0b5f97;
+}
+
+.currentLocation img {
+  margin-left: 30%;
+  border-radius: 10px;
+}
+
+.currentLocation .ok-btn {
+  margin-left: 80px;
+  padding: 10px 50px;
+}
+
+@-webkit-keyframes current {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes current {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.search-city {
+  width: 500px;
+  margin-left: 35%;
+}
+
+.search-city label {
+  font-weight: bold;
+  font-size: 25px;
+  color: #0ea1bb;
+  text-shadow: 0 2px 3px #b1afaf;
+}
+
+.displ {
+  margin-top: 50px;
+}
+
+.displ .display-Weather {
+  width: 90%;
+  height: 450px;
+  margin: 20px 50px;
+  -webkit-box-shadow: 10px 10px 10px 10px grey;
+          box-shadow: 10px 10px 10px 10px grey;
+}
+
+.displ .chart {
+  width: 90%;
+  height: 450px;
+  margin: 20px 50px;
+}
+
+.abt-name {
+  font-size: 4vw;
+  color: #0ea1bb;
+  text-shadow: 0 2px 4px grey;
+}
+
+.ser-main {
+  margin-left: 20vw;
+  width: 60%;
+  margin-bottom: 100px;
+}
+
+.ser-img img {
+  width: 100vw;
+  height: 20vw;
+}
+
+.team-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.team-main .member {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: auto;
+  width: 300px;
+  -webkit-box-shadow: 0 5px 5px 5px #635e5e;
+          box-shadow: 0 5px 5px 5px #635e5e;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+}
+
+.team-main .member h3 {
+  color: #096ab9;
+  font-weight: bold;
+}
+
+.team-main .member img {
+  width: 200px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+  .sub1 {
+    width: 100%;
+    height: 500px;
+  }
+  .sub2 {
+    width: 100%;
+    height: 400px;
+    overflow-y: scroll;
+    border: none;
+  }
+  .sub2 .news {
+    display: block;
+  }
+  .sub2 .news img {
+    width: 100px;
+    height: 100px;
+    display: none;
+  }
+  .slidediv {
+    width: 100%;
+    height: 500px;
+  }
+  .sticky {
+    position: relative;
+  }
+  .main-current {
+    position: fixed;
+    top: 170px;
+  }
+  .ser-img img {
+    height: 200px;
+  }
+  .showweath button {
+    display: block;
+    margin: 10px;
+  }
+  .abt-name {
+    font-size: 40px;
+  }
+  .team-img img {
+    height: 200px;
+  }
+  .search-city {
+    width: 90vw;
+    margin: 10px;
+  }
+  .cftr {
+    position: relative;
+    top: 500px;
+  }
+  .displ .chart2 {
+    margin-top: 100px;
+  }
+  .displ .display-Weather {
+    height: 500px;
+    margin: 10px;
+  }
+  .displ .weatherimgs {
+    width: 50px;
+    height: 50px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
